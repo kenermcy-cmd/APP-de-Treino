@@ -1,0 +1,12 @@
+{
+  "name": "Meu Treino A/B/C",
+  "short_name": "Meu Treino",
+  "description": "Aplicativo para organizar e registrar treinos A/B/C.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#111827",
+  "icons": []
+}
