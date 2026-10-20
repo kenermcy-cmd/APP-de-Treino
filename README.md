@@ -34,4 +34,4 @@ Depois abra http://localhost:8000.
 - Limpar os dados do navegador pode apagar os registros. Exporte backups regularmente.
 - O conteúdo de treino é um modelo inicial; adapte os exercícios e cargas com orientação de profissional de educação física.
 
-Não coloque senhas, tokens ou outras credenciais no repositório.
+Não coloque senhas, tokens ou outras credenciais no repositório..
