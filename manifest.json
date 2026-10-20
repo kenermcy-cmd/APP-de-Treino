@@ -1,7 +1,7 @@
 {
-  "name": "Meu Treino A/B/C",
-  "short_name": "Meu Treino",
-  "description": "Aplicativo para organizar e registrar treinos A/B/C.",
+  "name": "MEU TREINO TRINCA AF",
+  "short_name": "TRINCA AF",
+  "description": "Aplicativo gratuito para organizar e registrar treinos A–F em ciclos de 8 semanas.",
   "lang": "pt-BR",
   "start_url": "./",
   "scope": "./",
