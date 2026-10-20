@@ -65,6 +65,18 @@ const exerciseTips={
 "Crunch abdominal":"Faça uma flexão controlada do tronco sem puxar a cabeça."
 };
 const groups={"1":{A:"Treino completo com ênfases distribuídas",B:"Treino completo com ênfases distribuídas",C:"Treino completo com ênfases distribuídas",D:"Treino completo com ênfases distribuídas",E:"Treino completo com ênfases distribuídas",F:"Treino completo com ênfases distribuídas"}};
+let state=JSON.parse(localStorage.getItem("meuTreinoABC")||'{"logs":[],"profile":{},"model":"1","week":"1","start":""}');
+if(String(state.model)!=="1")state.model="1";
+if(!Array.isArray(state.logs))state.logs=[];
+if(!state.profile||typeof state.profile!=="object")state.profile={};
+const $=id=>document.getElementById(id);
+const today=()=>new Date().toISOString().slice(0,10);
+$("dataTreino").value=today();
+$("inicioData").value=state.start||today();
+$("modelo").value="1";
+$("semana").value=state.week||"1";
+$("nome").value=state.profile.name||"";
+$("objetivo").value=state.profile.goal||"Condicionamento geral";
 function save(){localStorage.setItem("meuTreinoABC",JSON.stringify(state));renderHome();renderLogs()}
 function showTab(t){document.querySelectorAll(".view").forEach(x=>x.classList.toggle("hidden",x.id!==t));document.querySelectorAll("[data-tab]").forEach(x=>x.classList.toggle("active",x.dataset.tab===t));if(t==="treinos")renderExercises()}
 document.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>showTab(b.dataset.tab));$("irTreinos").onclick=()=>showTab("treinos");
