@@ -1,4 +1,4 @@
-# MEU TREINO TRINCA AF
+# MEU TREINO TRINCA A'F
 
 Aplicativo web gratuito para organizar a rotina de treinos A–F e acompanhar os registros localmente no navegador.
 
