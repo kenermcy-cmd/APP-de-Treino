@@ -1,10 +1,10 @@
-# Meu Treino A/B/C
+# MEU TREINO TRINCA AF
 
-Aplicativo web gratuito para organizar a rotina de treinos A/B/C e acompanhar os registros localmente no navegador.
+Aplicativo web gratuito para organizar a rotina de treinos A–F e acompanhar os registros localmente no navegador.
 
 ## Recursos disponíveis
 - Tela inicial com indicação do próximo treino.
-- Treinos A, B e C com sugestões de exercícios, séries, repetições e orientações textuais de execução.
+- Treinos A–F com sugestões de exercícios, séries, repetições e orientações textuais de execução para os blocos musculares A–F.
 - Dois modelos de divisão muscular e ciclo de 8 semanas.
 - Registro de sessões com data, séries, repetições, cargas e observações.
 - Histórico de treinos e exclusão de registros.
